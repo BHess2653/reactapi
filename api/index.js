@@ -1,5 +1,5 @@
-import express from 'express';
-import epl from './epl';
+import express from 'express'
+import epl from './epl'
 
 const router = express.Router()
 
@@ -12,4 +12,4 @@ router.get('/clubs', (req, res) => {
   res.send({ clubs })
 })
 
-export default router;
+export default router
