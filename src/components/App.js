@@ -38,7 +38,7 @@ export default class App extends Component {
       return <Club {...this.state.clubs[this.state.currentClubKey]}/>
     }
 
-    return <ClubList clubs={this.state.clubs} onSelect={this.fetchClub} />
+    return <ClubList onSelect={this.fetchClub} clubs={this.state.clubs}/>
   }
 
   render(){
