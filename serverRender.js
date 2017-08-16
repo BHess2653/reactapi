@@ -8,7 +8,7 @@ import axios from 'axios'
 
 // Render to server
 const serverRender = () =>
-  axios.get(`${config.serverUrl}/api/clubs`)
+  axios.get(`${config.serverURL}/api/clubs`)
     .then(resp => {
       return {
         initialMarkup: ReactDOMServer.renderToString(

@@ -4,6 +4,6 @@ import { render } from 'react-dom'
 import App from './components/App'
 
 render(
-  <App initialData={window.initialData}/>,
+  <App initialData={window.initialData.clubs}/>,
   document.getElementById('root')
 )

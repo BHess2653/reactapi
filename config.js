@@ -14,7 +14,7 @@ export const logMessage = function(message){
 export default {
   port: env.PORT || 1234,
   host: env.HOST || '0.0.0.0',
-  get serverUrl(){
+  get serverURL(){
     return `http://${this.host}:${this.port}`
   }
 }
